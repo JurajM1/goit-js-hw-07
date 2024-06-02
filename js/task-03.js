@@ -15,7 +15,7 @@ const images = [
 ];
 
 // Pobieramy listę galerii
-const galleryList = document.querySelector('ul.gallery');
+const galleryList = document.querySelector("ul.gallery");
 
 // Tworzymy elementy <li> z <img> i dodajemy do listy galerii
 const galleryItems = images.map((image) => {
@@ -27,4 +27,4 @@ const galleryItems = images.map((image) => {
 });
 
 // Dodajemy całą listę <li> do <ul>
-galleryList.insertAdjacentHTML('beforeend', galleryItems.join(''));
+galleryList.insertAdjacentHTML("beforeend", galleryItems.join(""));
